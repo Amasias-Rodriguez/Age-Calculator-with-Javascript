@@ -5,54 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Dropdown Menu with Javascript</title>
+  <title>Age Calculator with Javascript</title>
 </head>
 <body>
-  <nav>
-    <div class="menuToggle"></div>
-    <div class="profile">
-      <h3>Frontend <br><span>Developer</span></h3>
-      <div class="imgBx">
-        <img src="/img/copy.png" alt="porfile-pic">
-      </div>
+  <div class="container">
+    <h1>Age Calculator</h1>
+    <div class="form">
+      <label for="birthday">
+        Enter your date of birth
+      </label>
+      <input type="date" id="birthday" name="birthday">
+      <button id="btn">Calculate Age</button>
+      <p id="result">Your age is 21 years old</p>
     </div>
-    <div class="menu">
-      <ul>
-        <li>
-          <a href="#">
-            <ion-icon name="person-outline"></ion-icon>
-            Profile
-          </a>
-        </li>
-        <li>
-          <ion-icon name="chatbox-ellipses-outline"></ion-icon>
-          <a href="#">
-            Inbox
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <ion-icon name="settings-outline"></ion-icon>
-            Settings
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <ion-icon name="help-circle-outline"></ion-icon>
-            Help
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <ion-icon name="log-out-outline"></ion-icon>
-            Logout
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
